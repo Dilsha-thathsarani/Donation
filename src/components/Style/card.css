@@ -494,3 +494,75 @@ button:disabled {
   background-color: #28835c;
   box-shadow: -300px 0 0 300px #7bd2ad;
 }
+
+/* media quaries */
+
+@media only screen and (max-width: 600px) {
+  .dark-mode,
+  .light-mode,
+  .cards-container {
+    width: auto;
+  }
+
+  .container {
+    width: fit-content;
+    max-width: min-content;
+    overflow-x: hidden;
+  }
+
+  .top-header {
+    width: 100% !important;
+    padding: 10px !important;
+  }
+
+  .logo {
+    transform: scale(0.5);
+    /* width: 150px !important; */
+    margin-left: -60px;
+  }
+
+  /* .title-section{
+    margin-right: -10px;
+  } */
+
+  .header-text {
+    width: 100% !important;
+    padding: 10px !important;
+  }
+
+  .header-text h1 {
+    text-align: center;
+  }
+
+  .header-text p {
+    margin-bottom: 30px;
+    width: auto !important;
+  }
+
+  .header-btn {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .header-banner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+
+  .header-image {
+    display: none;
+  }
+
+  .cards-container {
+    margin: 10px 30px;
+  }
+
+  .card {
+    width: 100% !important;
+  }
+
+  .donate-now {
+    width: 100% !important;
+  }
+}
